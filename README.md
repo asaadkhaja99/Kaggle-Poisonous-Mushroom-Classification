@@ -15,4 +15,5 @@ Please refer to `poisonous-mushroom-classification` notebook for my submission t
 * Data Pre-Processing: A pre-processing pipeline is set up to carry out data imputation, encode categorical data, and scale and transform numerical data
 * Model Selection: Two models were examined a Stochastic Gradient Descent (SGD) classifier (with a log loss function) and a Decision Tree model
 * Model Evaluation: 5-fold cross-validation was performed on both the SGD and Decision Tree classifier with the Decision Tree performing significantly better at the expense of training time. The decision tree model yielded an F1 score of 0.98 and an MCC score of 0.96 at this stage.
-* Model Testing: The Decision Tree model was then used to generate the predicted class of the mushroom. The public score will be updated once the notebook has been submitted.
+* Model Testing: The Decision Tree model was then used to generate the predicted class of the mushroom. The model obtained a public MCC score of 0.96160. 
+
